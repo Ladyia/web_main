@@ -1,0 +1,40 @@
+{
+  "name": "webmain",
+  "version": "1.0.0",
+  "description": "webmain",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ladyia/webmain.git"
+  },
+  "keywords": [
+    "webmain"
+  ],
+  "author": "Timkiwi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ladyia/webmain/issues"
+  },
+  "homepage": "https://github.com/Ladyia/webmain#readme",
+  "dependencies": {
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.23.1",
+    "vue": "^2.5.2",
+    "vue-class-component": "^6.0.0",
+    "vue-property-decorator": "^6.0.0",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.1",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.7.2",
+    "vue-loader": "^12.0.3",
+    "vue-template-compiler": "^2.5.2",
+    "webpack": "^2.7.0"
+  }
+}
