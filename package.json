@@ -23,17 +23,23 @@
   "homepage": "https://github.com/Ladyia/webmain#readme",
   "dependencies": {
     "css-loader": "^0.28.11",
+    "element-ui": "^2.4.11",
     "style-loader": "^0.23.1",
-    "vue": "^2.5.2",
+    "ts-cli": "^1.0.4",
+    "url-loader": "^1.1.2",
+    "vue": "^2.5.17",
     "vue-class-component": "^6.0.0",
+    "vue-cli": "^2.9.6",
+    "vue-loader": "^15.4.2",
     "vue-property-decorator": "^6.0.0",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vuex-class": "^0.3.1"
   },
   "devDependencies": {
     "css-loader": "^0.28.1",
-    "ts-loader": "^2.0.3",
-    "typescript": "^2.7.2",
-    "vue-loader": "^12.0.3",
+    "ts-loader": "^4.5.0",
+    "typescript": "^2.9.2",
     "vue-template-compiler": "^2.5.2",
     "webpack": "^2.7.0"
   }
